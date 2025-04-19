@@ -1,0 +1,9 @@
+groups:
+  webservers:
+    hosts:
+      - host: 192.168.1.10
+        user: ubuntu
+        port: 22
+      - host: 192.168.1.11
+        user: ubuntu
+        port: 22

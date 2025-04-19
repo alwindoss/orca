@@ -1,0 +1,9 @@
+- name: Setup web server
+  hosts: webservers
+  tasks:
+    - name: Install nginx
+      command: apt-get install -y nginx
+      become: true
+    - name: Start nginx
+      command: systemctl start nginx
+      become: true
