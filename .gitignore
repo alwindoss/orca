@@ -27,3 +27,6 @@ go.work.sum
 # Other ignores
 bin/
 tmp/
+
+# Added by goreleaser init:
+dist/

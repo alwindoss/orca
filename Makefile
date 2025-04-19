@@ -7,3 +7,7 @@ build:
 clean:
 	rm -rf ./bin
 	go clean
+
+.Phony: release
+release:
+	go tool goreleaser release
